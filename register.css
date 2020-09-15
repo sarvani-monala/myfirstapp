@@ -1,33 +1,41 @@
 h1{
   text-align: center;
-  font-family: verdana;
+  font-family: Candara;
   font-size: 40px;
 }
+
 body{
   background-image: url("background.jpg");
-  font-family: Arial;
+  font-family: Candara;
   }
+
 form{
   border: 3px solid #f1f1f1;
 }
-input[type=text], input[type=password]{
+
+input[type=text], input[type=password], input[type=email], input[type=date], input[type=radio], input[type=radio]{
   width = 100%;
-  padding: 12px 20px;
   border: 1px solid #ccc;
+  margin: 10px 5px;
+  padding: 5px 5px;
+  font-family: Candara;
 }
-button{
+
+#signup{
   color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 10px 50px;
+  margin: 8px;
+  font-family: Candara;
+  font-size: 20px;
 }
 .image{
   width:200px;
   height:200px;
 }
-.imagecontainer{
+#person{
   text-align: center;
 }
-.container{
+.formpage{
   text-align: center;
   font-size: 20px;
 }
