@@ -1,0 +1,43 @@
+body{
+  background-image: url("hotel.jpg");
+  background-repeat: no-repeat;
+  height: 50%;
+  background-position:  center;
+  background-size: cover;
+  font-family: Helvetica;
+}
+.MyDiv{
+  text-align: center;
+  float: left;
+  font-size: 25px;
+  width: 35%;
+  padding: 10%;
+
+}
+.login{
+  background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 18%;
+  float: left;
+  font-size: 25px;
+  font-family: Helvetica;
+  padding: 10%;
+  margin-top: 1%;
+  margin-bottom: 30%;
+  text-align: center;
+}
+input[type="text"], input[type="password"], input[type="checkbox"]{
+  padding: 5px 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#button{
+  font-family: calibri;
+  font-size: 30px;
+  border-radius: 20px;
+  border-style: solid;
+  padding: 10px 30px;
+  margin: 20px 0;
+}

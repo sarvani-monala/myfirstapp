@@ -1,0 +1,32 @@
+body{
+  background-image: url("fitness.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+  color: white;
+  border: 10px solid white;
+}
+h1{
+  text-align: center;
+  margin: 1px;
+}
+.Fit{
+  text-align: center;
+  font-size: 15px;
+
+}
+button{
+  padding: 10px 50px;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-top: 23%;
+  font-size: 20px;
+  font-family: cursive;
+}
+input[type="email"], input[type="password"]{
+  border: 5px solid white;
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px 0;
+  margin-top: 5px;
+  }
