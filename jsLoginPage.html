@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <script src="validation.js"></script>
+    <link rel="stylesheet" href="jsLoginPage.css">
+  </head>
+  <body>
+    <h1>LOGIN</h1>
+    <div class="container">
+      <form onsubmit="return Validate()">
+      <label for="uname"><b>Username: </b></label>
+      <input type="text" name="username" id="uname" value="" placeholder="Enter Username" required><br>
+      <label for="pwd"><b>Password: </b></label>
+      <input type="password" name="password" id="pwd" value="" placeholder="Enter Password" required><br>
+      <label for="retypepwd"><b>Confirm Password: </b></label>
+      <input type="password" name="rpassword" id="retypepwd" value="" placeholder="Retype Password" required><br>
+      <button type="submit" id="btnsubmit">LOGIN</button>
+      </form>
+    </div>
+
+  </body>
+</html>

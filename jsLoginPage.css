@@ -1,0 +1,31 @@
+body{
+  background-image: url("theme.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: calibri;
+  font-size: 20px;
+}
+input, label{
+  font-size: 20px;
+  font-family: calibri;
+  margin: 10px 0;
+  padding: 0 10px;
+
+}
+button{
+  font-size: 20px;
+  font-family: calibri;
+  margin: 10px 0;
+  padding: 1%;
+  color: black;
+  border-radius: 20px;
+  border: 10px solid purple;
+
+}
+.container{
+  text-align: center;
+  margin: 10%;
+  padding: 1%;
+  border: 10px solid purple;
+}
